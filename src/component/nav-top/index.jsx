@@ -1,9 +1,23 @@
 import React, { Component } from 'react';
+import User from 'service/user-service.jsx';
+import MUtil from 'util/mm.jsx';
 
+const _user = new User
+const _mm = new MUtil()
 class NavTop extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      username: _mm.getStorage('userInfo').username || ''
+    }
+  }
+  onLogout() {
+    _user.logout().then(res => {
+      _mm.removeStorage('userInfo');
+      window.location.href = '/login'
+    }, errMsg => {
+      _mm.errorTips(errMsg)
+    })
   }
   render() {
     return (
@@ -25,10 +39,10 @@ class NavTop extends React.Component {
             </a>
             <ul className="dropdown-menu dropdown-user">
               <li>
-                {/* <a onClick={() => {this.onLogout()}}> */}
-                <i className="fa fa-sign-out fa-fw"></i>
-                <span>退出登录</span>
-                {/* </a> */}
+                <a onClick={() => { this.onLogout() }}>
+                  <i className="fa fa-sign-out fa-fw"></i>
+                  <span>退出登录</span>
+                </a>
               </li>
             </ul>
           </li>

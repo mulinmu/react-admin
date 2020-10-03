@@ -294,6 +294,11 @@ async@^2.1.2, async@^2.1.5, async@^2.4.1, async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
+async@~0.2:
+  version "0.2.10"
+  resolved "https://registry.npm.taobao.org/async/download/async-0.2.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fasync%2Fdownload%2Fasync-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
+  integrity sha1-trvgsGdLnXGXCMo43owjfLUmw9E=
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npm.taobao.org/asynckit/download/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
@@ -900,7 +905,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+babel-runtime@6.x, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -2027,6 +2032,11 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
+dompurify@^1.0.8:
+  version "1.0.11"
+  resolved "https://registry.npm.taobao.org/dompurify/download/dompurify-1.0.11.tgz#fe0f4a40d147f7cebbe31a50a1357539cfc1eb4d"
+  integrity sha1-/g9KQNFH98674xpQoTV1Oc/B600=
+
 domutils@1.5.1:
   version "1.5.1"
   resolved "https://registry.npm.taobao.org/domutils/download/domutils-1.5.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdomutils%2Fdownload%2Fdomutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
@@ -2539,6 +2549,15 @@ filename-regex@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/filename-regex/download/filename-regex-2.0.1.tgz#c1c4b9bee3e09725ddb106b75c1e301fe2f18b26"
   integrity sha1-wcS5vuPglyXdsQa3XB4wH+LxiyY=
+
+fileupload@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/fileupload/download/fileupload-1.0.0.tgz#95acd0b3a9aa9f3c8bd9d1b6884a87bec8e4111d"
+  integrity sha1-lazQs6mqnzyL2dG2iEqHvsjkER0=
+  dependencies:
+    async "~0.2"
+    lodash "~1.0.1"
+    mime "~1.2"
 
 fill-range@^2.1.0:
   version "2.2.4"
@@ -3552,6 +3571,21 @@ isstream@~0.1.2:
   resolved "https://registry.npm.taobao.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
+jquery@2.x:
+  version "2.2.4"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-2.2.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjquery%2Fdownload%2Fjquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
+  integrity sha1-LInWiJterFIqfuoywUUhVZxsvwI=
+
+jquery@^3.0.0, jquery@^3.4.1:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.5.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjquery%2Fdownload%2Fjquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
+  integrity sha1-17TQjhv9uGrS8aPQOeoXMEcXq7U=
+
+jquery@~3.1.0:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjquery%2Fdownload%2Fjquery-3.1.1.tgz#347c1c21c7e004115e0a4da32cece041fad3c8a3"
+  integrity sha1-NHwcIcfgBBFeCk2jLOzgQfrTyKM=
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.6.4"
   resolved "https://registry.npm.taobao.org/js-base64/download/js-base64-2.6.4.tgz?cache=0&sync_timestamp=1599897531189&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjs-base64%2Fdownload%2Fjs-base64-2.6.4.tgz#f4e686c5de1ea1f867dbcad3d46d969428df98c4"
@@ -3797,6 +3831,11 @@ lodash@^4.0.0, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.2, lodash@^4.17.3,
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597336125847&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
 
+lodash@~1.0.1:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-1.0.2.tgz?cache=0&sync_timestamp=1597336125847&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-1.0.2.tgz#8f57560c83b59fc270bd3d561b690043430e2551"
+  integrity sha1-j1dWDIO1n8JwvT1WG2kAQ0MOJVE=
+
 loglevel@^1.4.1:
   version "1.7.0"
   resolved "https://registry.npm.taobao.org/loglevel/download/loglevel-1.7.0.tgz?cache=0&sync_timestamp=1598447570801&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Floglevel%2Fdownload%2Floglevel-1.7.0.tgz#728166855a740d59d38db01cf46f042caa041bb0"
@@ -3991,6 +4030,11 @@ mime@1.6.0, mime@^1.4.1, mime@^1.5.0:
   version "1.6.0"
   resolved "https://registry.npm.taobao.org/mime/download/mime-1.6.0.tgz?cache=0&sync_timestamp=1593529693583&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmime%2Fdownload%2Fmime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
+
+mime@~1.2:
+  version "1.2.11"
+  resolved "https://registry.npm.taobao.org/mime/download/mime-1.2.11.tgz?cache=0&sync_timestamp=1593529693583&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmime%2Fdownload%2Fmime-1.2.11.tgz#58203eed86e3a5ef17aed2b7d9ebd47f0a60dd10"
+  integrity sha1-WCA+7Ybjpe8XrtK32evUfwpg3RA=
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -4972,7 +5016,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1:
+prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.1:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fprop-types%2Fdownload%2Fprop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -5107,6 +5151,14 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+rc-pagination@1.15.1:
+  version "1.15.1"
+  resolved "https://registry.npm.taobao.org/rc-pagination/download/rc-pagination-1.15.1.tgz#fbf0f88f35d3b34e90bafc068b2bf03b5156ba5f"
+  integrity sha1-+/D4jzXTs06QuvwGiyvwO1FWul8=
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.5.7"
 
 react-dom@16.2.0:
   version "16.2.0"
@@ -5662,6 +5714,47 @@ signal-exit@^3.0.0:
   version "3.0.3"
   resolved "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.3.tgz?cache=0&sync_timestamp=1593529702917&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsignal-exit%2Fdownload%2Fsignal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha1-oUEMLt2PB3sItOJTyOrPyvBXRhw=
+
+simditor@^2.3.28:
+  version "2.3.28"
+  resolved "https://registry.npm.taobao.org/simditor/download/simditor-2.3.28.tgz#294e86eeae3e0e57255910aac9dd9070cc495628"
+  integrity sha1-KU6G7q4+DlclWRCqyd2QcMxJVig=
+  dependencies:
+    dompurify "^1.0.8"
+    jquery "^3.4.1"
+    simple-hotkeys "^1.0.3"
+    simple-module "^3.0.3"
+    simple-uploader "^3.0.0"
+
+simple-hotkeys@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/simple-hotkeys/download/simple-hotkeys-1.0.3.tgz#47a5bc35362ca7339611bd09a84fa37818b0bbc6"
+  integrity sha1-R6W8NTYspzOWEb0JqE+jeBiwu8Y=
+  dependencies:
+    jquery "2.x"
+    simple-module "~2.0.5"
+
+simple-module@^3.0.3, simple-module@~3.0.0:
+  version "3.0.3"
+  resolved "https://registry.npm.taobao.org/simple-module/download/simple-module-3.0.3.tgz#ad52766785d27cd9427ee8645a49e41199725a92"
+  integrity sha1-rVJ2Z4XSfNlCfuhkWknkEZlyWpI=
+  dependencies:
+    jquery "^3.0.0"
+
+simple-module@~2.0.5:
+  version "2.0.6"
+  resolved "https://registry.npm.taobao.org/simple-module/download/simple-module-2.0.6.tgz#cec8250325f8c7f575f4aa75c919b38396a6037b"
+  integrity sha1-zsglAyX4x/V19Kp1yRmzg5amA3s=
+  dependencies:
+    jquery "2.x"
+
+simple-uploader@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/simple-uploader/download/simple-uploader-3.0.0.tgz#c09f706f1cfcbea1fe780e35759a683b1336d4d1"
+  integrity sha1-wJ9wbxz8vqH+eA41dZpoOxM21NE=
+  dependencies:
+    jquery "~3.1.0"
+    simple-module "~3.0.0"
 
 slash@^1.0.0:
   version "1.0.0"
